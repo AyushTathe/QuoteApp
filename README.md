@@ -1,4 +1,8 @@
 # QuoteApp
+This app uses Google Firebase.
+Recycler View for scrolling posts.
+Floating button to create new post.
+Intent is used to navigate between Post activity and Quote Activity.
 
 SCREENSHOTS:
 
