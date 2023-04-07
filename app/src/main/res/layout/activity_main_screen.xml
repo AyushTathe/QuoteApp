@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainScreen">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout"
+        app:layout_constraintTop_toTopOf="@id/logoutButton"
+        app:layout_constraintTop_toBottomOf="@id/logoutButton"
+
+        app:layout_constraintBottom_toTopOf="@id/quote"
+        tools:ignore="NotSibling"
+        android:background="#F7F1E5">
+        <TextView
+            android:id="@+id/welcomeText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Have A Blessed DAY!!"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@id/logoutButton"
+            android:textColor="@color/black"
+            android:fontFamily="@font/abel"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="NotSibling" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/welcome"
+            android:fontFamily="@font/abel"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/textout"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/logoutButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_marginLeft="20dp"
+            android:padding="10dp"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="Logout"
+            android:drawableRight="@drawable/ic_baseline_logout_24"
+            android:textColor="#212121"
+            android:background="@drawable/outlined_butt"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            app:layout_constraintTop_toBottomOf="@+id/welcomeText"
+            android:id="@+id/recyclerView"/>
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/quote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:layout_marginRight="-140dp"
+        android:backgroundTint="#EA5455"
+        android:padding="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:src="@drawable/ic_baseline_chat_bubble_outline_24"
+        app:fabCustomSize="65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_margin="24dp"
+        tools:ignore="MissingClass" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

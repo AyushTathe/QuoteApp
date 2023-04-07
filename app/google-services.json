@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "281558509231",
+    "project_id": "eodproj",
+    "storage_bucket": "eodproj.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:281558509231:android:1b5978bf682b95fb46d65a",
+        "android_client_info": {
+          "package_name": "com.example.eod"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "281558509231-1kefde8aeliir67cv3kpe8436pqq3d4m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnS1rzE_qJYBoBnOEv-83Q2BqaUykBaQo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "281558509231-1kefde8aeliir67cv3kpe8436pqq3d4m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
