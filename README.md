@@ -12,4 +12,15 @@ Password
 
 ![image](https://user-images.githubusercontent.com/92294717/230594336-92139adb-e24b-4e48-acb9-9d8634785257.png)
 
+Quote Screen
+->
+
+![image](https://user-images.githubusercontent.com/92294717/230595070-882c2ddc-e89c-4fe9-baec-1ce03d03fb2c.png)
+
+Create Quote
+->
+
+![image](https://user-images.githubusercontent.com/92294717/230595141-daf108f0-6f06-416d-a766-6f616d602097.png)
+
+
 
